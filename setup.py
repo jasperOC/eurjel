@@ -3,7 +3,7 @@ import sys, os
 
 version = '0.1'
 
-setup(name='EURJel',
+setup(name='eurjel',
       version=version,
       description="EURJel code module",
       long_description="""\
