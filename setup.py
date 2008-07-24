@@ -17,9 +17,11 @@ setup(name='eurjel',
       packages=find_packages('src'),
       package_dir = {'': 'src'},
       include_package_data=True,
-
+      entry_points={
+   'console_scripts': [
+        'word_frequency = eurjel:word_frequency'
+     ]},
       zip_safe=True,
       install_requires=[
-    'nltk',
       ],
       )
